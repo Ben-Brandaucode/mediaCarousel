@@ -1,0 +1,11 @@
+
+.col-sm-2{
+    background-color: cyan;
+}
+.col-sm-6{
+    background-color: blue;
+    color:white;
+}
+.col {
+    background-color: crimson;
+}

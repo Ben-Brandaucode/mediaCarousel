@@ -3,27 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!-- bootstrap Reference -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"/>
 <!-- CSS links -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Media Carousel</title>
+    <link rel="stylesheet" href="css/styles.css" />
+   
+    <title>Bootstrap Testing</title>
 </head>
-<header class="jumbotron">
+<header class="jumbotron jumbotron-fluid">
     <p>This is a message in the jumbotron</p>
 </header>
 <body>
-    <h1>this is a carousell which will display thumb nails and link you to a modal pop up window which will display the video</h1>
+    <h1>this is a carousel which will display thumbnails and link you to a modal pop up window which will display the video</h1>
     
     <p>Playing with the bootstrap boxess below</p><hr>
         <div class="container">
-            <div class="row">
-                <div class="col-sm-5">
-                    <h2>this is a test where the col takes half the screen</h1>
+            <div class="row no-gutters">
+                <div class="col-sm-6 offset-1">
+                    <p>this is a test of col-sm-6 col takes 1/2th the screen</p>
                 </div>
-                <div class="col-center">
-                    <h3>This is a col-1  in the same row</h1>
+                <div class="col-sm-2">
+                    <p>This is a col-sm-2 div</p>
+                </div>
+                <div class="col">
+                    <p>This is a col that is made red in css to demarcate it has no set size.</p>
                 </div>
             </div>
         </div>
