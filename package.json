@@ -2,7 +2,7 @@
   "name": "videocarousel",
   "version": "1.0.0",
   "description": "A media carousel meant to pop up modals of videos hosted on other sites",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "lite": "lite-server",
     "start": "npm run lite",
